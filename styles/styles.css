@@ -63,7 +63,7 @@ footer {
 /* Class Selectors */
 .box { 
     margin: 1rem;
-    border: 1px sold rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
@@ -78,14 +78,8 @@ main img {
     float: right;
 }
 
-aside { 
-    position: relative;
-    top: 47px;
-    right: 150;
-}
-
 aside h2 { 
     position: absolute;
     top: 47px;
-    left: 150;
+    left: 150px;
 }

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Kaisei+Tokumin&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+/* Define CSS Variables */
+:root { 
+    --heading-color: #333;
+    --paragraph-color: #666;
+}
+
+/* General styling */
+body { 
+    font-family: 'Roboto', serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: #ffa69e;
+    padding: 20px;
+  }
+
+.logo img {
+    max-width: 100px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* color for nav links */
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--heading-color); /* Using CSS variable for heading color */
+    text-align: center;
+}
+
+article {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* background color and opacity */
+    padding: 20px;
+    text-align: center;
+}
+
+article img {
+    float: right;
+    max-width: 200px; /* width for client/employee image */
+    margin: 0 0 20px 20px;
+}
+
+article p {
+    color: var(--paragraph-color); /* Use CSS variable for paragraph color */
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+section h2 {
+    color: var(--heading-color); /* Use CSS variable for heading color */
+}
+
+footer {
+    background-color: #333; /* color for footer background */
+    color: #fff; /* color for footer text */
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px; /* Example width for social media icons */
+}

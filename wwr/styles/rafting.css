@@ -34,7 +34,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333; /* color for nav links */
+    color: #333;
 }
 
 main {
@@ -102,5 +102,5 @@ footer {
 }
 
 .social-media img {
-    width: 30px; /* Example width for social media icons */
+    width: 30px; /* width for social media icons */
 }

@@ -70,7 +70,7 @@ article {
     text-align: center;
 }
 
-article img {
+article img.float-right {
     float: right;
     max-width: 200px; /* width for client/employee image */
     margin: 0 0 20px 20px;

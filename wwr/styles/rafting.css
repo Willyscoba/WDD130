@@ -23,6 +23,8 @@ header {
 }
 
 nav ul {
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
     padding: 0;
 }
@@ -30,6 +32,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    margin: 0 10px; /* Adjust spacing between links */
 }
 
 nav ul li a {
@@ -94,6 +97,8 @@ footer {
     color: #fff; /* color for footer text */
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
 }
 
 .social-media a {
@@ -103,4 +108,66 @@ footer {
 
 .social-media img {
     width: 30px; /* width for social media icons */
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Adjust column sizes as needed */
+    align-items: center; /* Vertically center items */
+}
+/* w04 asignment*/
+nav {
+    text-align: center; /* Center-align navigation links */
+}
+
+#history {
+    padding: 20px;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 20px; /* Added gap between grid items */
+}
+
+.history-content p {
+    /* Add styles for paragraph text */
+    margin: 0; /* Remove default margin for paragraphs */
+}
+#adventures {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.adventures-gallery image {
+    flex: 0 0 calc(20% - 10px); /* Adjust item width and spacing */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center-align figure captions */
+}
+
+.adventures-gallery {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    flex-wrap: nowrap; /* Prevent wrapping of items */
+}
+
+.adventures-gallery img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    max-height: 150px;
+}
+
+.adventures-gallery imgcaption {
+    margin-top: 10px; /* Add spacing between image and caption */
+    font-style: italic; /* Style caption text */
+    padding: 3px;
+    text-align: center;
+}
+
+.sociallinks {
+    margin-right: 20px; /* Adjust spacing from the text */
+}
+
+.sociallinks a {
+    margin-left: 10px; /* Adjust spacing between social icons */
 }

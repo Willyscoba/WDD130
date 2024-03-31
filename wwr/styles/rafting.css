@@ -120,7 +120,7 @@ article p {
     justify-content: space-between;
     
 }
-.adventure img {
+.advent-img img {
     height: 150px;
     width: fit-content;
     padding-bottom: 100px
@@ -146,38 +146,6 @@ footer p {
     width: 50px;
 }
 
-.history-content {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 20px; 
-}
-
-.history-content p {
-  
-    margin: 0; 
-}
-#adventures {
-    display: flex;
-    justify-content: space-between; 
-    padding: 20px; 
-}
-
-.adventures-gallery image {
-    flex: 0 0 calc(20% - 10px);
-    margin: 0; 
-    text-align: center;
-}
-
-.adventures-gallery {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap; 
-}
-
-.adventures-gallery img {
-    max-width: 100%; 
-    max-height: 150px;
-}
 
 
 .sociallinks {

@@ -26,7 +26,7 @@ header {
 	height: 80px;
 }
 
-.logo img {
+.logo-img {
 	height: 100%;
 }
 
@@ -35,10 +35,10 @@ nav {
 	height: 100px;
 }
 
-nav ul {
+ul {
 	margin-right: 20px;
 }
-nav ul li {
+li {
 	display: inline;
 	float: left;
 }
@@ -59,7 +59,7 @@ nav a:hover{
     position: relative;
 }
 
-.hero .bk {
+.bk {
     position: absolute;
     top: 0;
     left: 0;
@@ -109,7 +109,7 @@ article p {
 .adventure {
     width: 100%;
 }
-.adventure h2 {
+.adv-h2 {
     text-align: center;
     font-size: 1.2em;
     padding: 20px;
@@ -146,12 +146,6 @@ footer p {
     width: 50px;
 }
 
-
-
-#history {
-    padding: 20px;
-}
-
 .history-content {
     display: grid;
     grid-template-columns: 1fr; 
@@ -185,12 +179,6 @@ footer p {
     max-height: 150px;
 }
 
-.adventures-gallery imgcaption {
-    margin-top: 10px; 
-    font-style: italic; 
-    padding: 3px;
-    text-align: center;
-}
 
 .sociallinks {
     margin-right: 20px; 

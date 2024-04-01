@@ -10,7 +10,14 @@ body {
 
 h1 {
     text-align: center;
-    text-decoration-color: #0056b3;
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    text-decoration-line: #007bff;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
 }
 
 form {
@@ -52,3 +59,9 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+.question-4 {
+    background-color: #000000;
+    color: #fff;
+    width: fit-content;
+} 

@@ -15,6 +15,7 @@ body {
     font-family: 'roboto', serif;
     margin: 0;
     padding: 0;
+    background-color: #ececec;
 }
 /* HEADER SECTION */
 header {
@@ -60,9 +61,14 @@ nav a:hover{
 }
 
 /* MAIN SECTION */
+main {
+    width: 100%;
+}
 .hero {
     position: relative;
 }
+
+
 
 .bk {
     position: absolute;
@@ -123,12 +129,19 @@ article p {
     font-size: 1.2em;
     padding: 20px;
 }
+.emp-h2 {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+
 .advent-img {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    
 }
+
 .advent-img img {
     height: 150px;
     width: fit-content;
@@ -155,8 +168,6 @@ footer p {
     width: 50px;
 }
 
-
-
 .sociallinks {
     margin-right: 20px; 
 }
@@ -165,59 +176,113 @@ footer p {
     margin-left: 10px; 
 }
 
-.company-infor {
-    padding: 20px;
-    text-align: center;
-}
-
-.employee-profiles {
+.company-info {
     display: flex;
+    height: 300px;
     justify-content: space-between;
-    padding: 20px;
 }
-
-.employee-profiles .employee {
+.info {
+    width: 50%;
+    padding-right: 10px;
+}
+.info h2 {
     text-align: center;
+    font-size: 1.5em;
+    padding: 15px;
+    padding-top: 30px;
+    text-transform: capitalize;
 }
-
-.employee-profiles img {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+.info p {
+    padding: 0 100px;
+    padding-top: 80px;
+    height: 300px;
 }
-
-.contact-form {
-    padding: 20px;
-    text-align: center;
+.map {
+    width: 50%;
+    height: 300px;
 }
-
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-
-.contact-form label {
-    margin-bottom: 10px;
-}
-
-.contact-form input,
-.contact-form textarea {
+.map iframe {
+    height: 100%;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
 }
 
-.contact-form input[type="submit"] {
-    width: auto;
-    cursor: pointer;
-    background-color: #082707;
+.employee-profile {
+    padding-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+.employee-profile h2{
+    text-align: center;
+    font-size: 2em;
+    padding: 10px 0;
+    
+}
+.team-grid {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+.employee-img {
+    height: 80%;
+    width: 300px;
+    border: 5px solid grey;
+}
+.employee-img img {
+    height: 90%;
+    width: 100%;
+}
+.employee-img p {
+    text-align: center;
+    font-weight: 700;
+}
+
+.contact-form{
+    padding: 50px 0;
+}
+
+.contact-form h2{
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+    background-color: #333; 
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.contact-form input[type="submit"]:hover {
-    background-color: #0c3a0f;
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #181717; 
 }

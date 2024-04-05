@@ -210,7 +210,8 @@ h1 {
 }
 .map iframe {
     height: 100%;
-    width: 100%;
+    width: 80%;
+    padding-right: 20px;
 }
 
 .employee-profile {

@@ -176,6 +176,13 @@ footer p {
     margin-left: 10px; 
 }
 
+
+/* Contact US CSS */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    font-size:1.5em;
+}
 .company-info {
     display: flex;
     height: 300px;
@@ -272,7 +279,7 @@ input[type="number"] {
     border-radius: 5px;
 }
 
-.button {
+button {
     display: block;
     width: 100%;
     padding: 10px;

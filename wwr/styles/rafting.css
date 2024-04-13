@@ -428,6 +428,8 @@ button {
 }
 .hp-hero h2 {
     color: #fff;
+    text-align: center;
+    padding: 50px 0;
 }
 .hp-hero p{
     color: #e1e1e1;

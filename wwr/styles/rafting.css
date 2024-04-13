@@ -249,7 +249,7 @@ h1 {
 
 .contact-form h2{
     text-align: center;
-    width: 600px;
+    width: 100%;
     padding: 10px;
     background-color: #333; 
     color: #fff;
@@ -292,4 +292,197 @@ button {
 
 .button:hover {
     background-color: #181717; 
+}
+
+
+/* TRIP */
+.call-to-action {
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.detail {
+    width: 100%;
+    height: 100%;
+}
+
+.detail h2{
+    text-align: center;
+    padding: 10px;
+    background-color: #333; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 5px 5px 0  0;
+}
+.detail p{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact-btn {
+    width: fit-content;
+    height: 50px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.detail a {
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    line-height: 50px;
+    padding: 0 10px;
+    color: #fff;
+    display: block;
+    
+}
+
+.trip {
+    padding-top: 40px;
+    width: 100%;
+    
+}
+.trip h2 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.trip-details {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.trip-details img{
+    height: 100%;
+    width: 30%;
+    border: 5px solid #333;
+}
+
+.trip-p {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.trip {
+   text-align: center;
+}
+
+.trip-table {
+    width:  50%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+
+}
+
+.trip-table h2{
+    text-align: center;
+    padding: 30px 0;
+}
+.trip-table td {
+    padding: 10px;
+    border: 2px solid grey;
+}
+
+.wireframe {
+    max-width: 700px;
+    height: 1200px;
+
+    margin: 0 auto;
+    padding: 20px 0;
+    padding-bottom: 50px;
+}
+.wireframe h2 {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+.wireframe img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* Home Page */
+.hp-hero {
+    position: relative;
+}
+
+
+
+.hp-bk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+}
+.hp-hero h1 {
+    color: #fff;
+}
+.hp-hero p{
+    color: #e1e1e1;
+    text-align: center;
+    font-weight: 800;
+    background-color: #666;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.newsletter {
+    width: 60%;
+    height: fit-content;
+    margin: 0 auto;
+    padding-top: 500px;
+}
+
+.newsletter h2 {
+    text-align: center;
+}
+
+
+.hp-call-to-action {
+    width: 60%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 30px 0;
+    
+}
+.hp-call-to-action h2, p {
+    text-align: center;
+    line-height: 50px;
+}
+.hp-call-to-action a {
+    line-height: 50px;
+    text-decoration: none;
+    width: fit-content;
+    text-align: center;
+}
+.trip-link {
+    width: 100%;
+    padding-left: 350px;
+}
+
+.grid-layout {
+    width: 70%;
+    height: fit-content;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+
+.grid-layout img{
+    width: 100%;
+}
+.grid-item p{
+    background-color: grey;
+    color: #fff;
 }
